@@ -1,1 +1,43 @@
-/*todo lmao*/
+body{
+background-color: lime;
+
+}
+
+a{
+  font-family: "Comic Sans MS",fantasy;
+  color:blue;
+  font-size: 12pt;
+}
+
+a:hover{
+font-size:15pt ;
+}
+
+a:active{
+font-size: 20pt;
+color:red;
+}
+
+h4{
+/*used for links at top*/
+background-color: cyan;
+color:black;
+justify-content: center;
+}
+
+h1{
+color:magenta;
+}
+
+h2{
+color:blue;
+}
+
+h3{
+color: red;
+}
+
+img{
+  max-width: 100%;
+  height:auto;
+}
