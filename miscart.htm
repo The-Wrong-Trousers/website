@@ -1,0 +1,175 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <h4>
+  <a href="gallery.htm">Back to Galleries</a>
+  <div class="home">
+    <a href="index.html">  Back to Homepage  </a>
+  </div>
+ </h4>
+  <h1>
+The Miscellaneous Mishmash
+</head>
+<body>
+
+<h2>
+<p>
+  This art may not be part of a collection, but we collected it here anyways for your pondering pleasure.
+</p>
+</h2>
+</h1>
+<div class="galleryimg">
+<img id="myImg" src="images/JONES_starry_night.png">
+<img id="myImg2" src="images/KaijuCityDigitalArtVirtualBackground.jpg">
+<img id="myImg3" src="images/hatinthecat.png">
+<img id="myImg4" src="images/rocco.png">
+<img id="myImg5" src="images/DHMOposter2.png">
+<img id="myImg6" src="images/shapes.png">
+</div>
+
+<div id="myModal" class="modal">
+<div class="x">
+  <span class="close">&times;</span>
+</div>
+<img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("myImg");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal2" class="modal">
+<div class = "x">
+  <span class="close2">&times;</span>
+</div>
+  <img class="modal-content" id="img02">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal2');
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close2")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal3" class="modal">
+<div class = "x">
+  <span class="close3">&times;</span>
+</div>
+  <img class="modal-content" id="img03">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal3');
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close3")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal4" class="modal">
+<div class = "x">
+  <span class="close4">&times;</span>
+</div>
+  <img class="modal-content" id="img04">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal4');
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close4")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal5" class="modal">
+<div class = "x">
+  <span class="close5">&times;</span>
+</div>
+  <img class="modal-content" id="img05">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal5');
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img05");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close5")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal6" class="modal">
+<div class = "x">
+  <span class="close6">&times;</span>
+</div>
+  <img class="modal-content" id="img06">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal6');
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img06");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close6")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>

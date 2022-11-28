@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <h4>
+   <a href="index.html">Back to Homepage</a>
+  </h4>
+  <h1>
+    The Shop
+    <p onload="hide()">
+<h2>
+    Give us your money.
+</h2>
+    </p>
+    <h3>
+    <p>
+    You can buy Burd's shiny rock! Questionable quality or your money back!
+    </p>
+    </h3>
+
+<p>
+
+    <button onclick="myFunction()">BUY NOW!!</button>
+</p>
+<div id="myDIV">
+<div class="scamtext">
+  You've been scammed. Burd will keep his rock and your money. Our apologies.
+</div>
+</div>
+<script>
+var x = document.getElementById("myDIV")
+x.style.display = "none";
+</script>
+<script>
+function myFunction() {
+
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</head>
+<body>
+
+</h1>
+<img src="images/burd.png">
+</body>
+</html>

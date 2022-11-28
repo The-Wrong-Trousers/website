@@ -1,0 +1,135 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <h4>
+  <a href="gallery.htm">Back to Galleries</a>
+  <div class="home">
+    <a href="index.html">  Back to Homepage  </a>
+  </div>
+ </h4>
+  <h1>
+Grotesque Gallery
+</h2>
+</head>
+<body>
+<h2>
+<p>
+</p>
+<h2>
+<p>
+  Artist T. Julian Jones has pioneered a revolutionary
+  new form of AI-less AI art, throwing sample images at
+  a wall by hand in order to get the worst possible output with zero
+  chance of robot rebellion.
+  Feast your eyes on the repulsive results!
+</p>
+</h2>
+</h1>
+<div class="galleryimg">
+<img id="myImg" src="images/pirate.png">
+<img id="myImg2" src="images/Jones_Poster.jpg">
+<img id="myImg3" src="images/Sylvia_blows_up.png">
+<img id="myImg4" src="images/mycowedding.png">
+</div>
+
+
+<div id="myModal" class="modal">
+<div class="x">
+  <span class="close">&times;</span>
+</div>
+<img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("myImg");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal2" class="modal">
+<div class = "x">
+  <span class="close2">&times;</span>
+</div>
+  <img class="modal-content" id="img02">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal2');
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close2")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal3" class="modal">
+<div class = "x">
+  <span class="close3">&times;</span>
+</div>
+  <img class="modal-content" id="img03">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal3');
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close3")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+<div id="myModal4" class="modal">
+<div class = "x">
+  <span class="close4">&times;</span>
+</div>
+  <img class="modal-content" id="img04">
+  <div id="caption"></div>
+</div>
+<script>
+var modal = document.getElementById('myModal4');
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close4")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
+
+</body>
+</html>
