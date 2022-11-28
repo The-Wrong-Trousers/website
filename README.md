@@ -2,6 +2,8 @@
 Welcome to the website of my "art museum".
 The museum itself is kinda fictitious, except now it has a website, with
 some things that could maybe pass for art on it. 
+It has a minimalist style to mimic modern art museum websites, featuring art for website navigation.
+...but since my art is rather goofy the website ended up being a bit goofy too.(I see this as a good thing.)
 
 Let me know if you find any bugs with the image enlarge feature or navigation image effects,
 especially the subtitles in the gallery page.
