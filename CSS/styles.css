@@ -94,11 +94,14 @@ color: red;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+
 }
 
 .galleryimg img{
   width: 260px;
   height:auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
